@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 
 }
 
-html,
-body {
+bod {
   background: black;
   font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 1.1;
