@@ -9,13 +9,13 @@ const Masthead: React.FC = () => {
         loop
         muted
         playsInline
-        className="absolute w-full h-full object-cover "
+        className="absolute w-full h-full object-cover -z-10"
       >
         <source src="./assets/masthead-bg.m4v" type="video/mp4; codecs=hvc1" />
         <source src="./assets/masthead-bg.mp4" type="video/mp4" />
         <source src="./assets/masthead-bg.webm" type="video/webm; codecs=vp9" />
       </video>
-      <div className="z-10 flex-grow-0 pt-20 md:pt-10 transition-all duration-1000">
+      <div className="flex-grow-0 pt-20 md:pt-10 transition-all duration-1000">
         <Image
           src="./assets/logo.svg"
           width={128 / 3}
@@ -30,7 +30,7 @@ const Masthead: React.FC = () => {
           <span> done right.</span>
         </h2>
       </div>
-      <div className="z-10  flex-grow-0 pb-20 md:pb-10 transition-all duration-1000">
+      <div className=" flex-grow-0 pb-20 md:pb-10 transition-all duration-1000">
         <Image
           src="/assets/arrow-down.png"
           width={188 / 3}
